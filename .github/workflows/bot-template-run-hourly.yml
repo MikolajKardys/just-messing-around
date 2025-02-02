@@ -1,8 +1,6 @@
 name: Execute the Bot-Template Script Every 2 (40 mins after)
 
 on:
-  schedule:
-    - cron: '40 1/2 * * *'
   workflow_dispatch:
 
 jobs:
